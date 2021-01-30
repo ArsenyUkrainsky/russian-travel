@@ -1,4 +1,8 @@
 .root {
   background-color: #2A2C2F;
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Inter-Regular', sans-serif;
+  text-rendering: optimizeLegibility;
   width: 100%;
 }
