@@ -1,0 +1,5 @@
+.place__paragraphs-container {
+  display: grid;
+  gap: 26px;
+  grid-template-rows: repeat(2, min-content);
+}
