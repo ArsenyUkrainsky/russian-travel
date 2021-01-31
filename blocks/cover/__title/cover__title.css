@@ -1,1 +1,5 @@
-{\rtf1}
+.cover__title {
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
