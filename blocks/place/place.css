@@ -1,6 +1,7 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   gap: 48px 40px;
+  grid-auto-flow: dense;
 }
