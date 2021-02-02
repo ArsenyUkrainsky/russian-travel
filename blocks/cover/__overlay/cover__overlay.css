@@ -24,3 +24,19 @@
 .cover__overlay:hover::before {
   opacity: 0.9;
 }
+@media screen and (max-width:1024px) {
+.cover__overlay {
+  max-width: 1024px;
+  min-height: 62.5vw;
+}
+}
+@media screen and (max-width:768px) {
+.cover__overlay {
+  max-width: 768px;
+}
+}
+@media screen and (max-width:320px) {
+.cover__overlay {
+  max-width: 320px;
+}
+}
