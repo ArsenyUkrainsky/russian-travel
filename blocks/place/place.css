@@ -15,7 +15,8 @@
 }
 @media screen and (max-width:768px) {
 .place {
-  grid-template-columns: repeat(auto-fit, /*44.27vw*/47.22% 45.833vw);/*340px 352px*/
+  grid-template-columns: 44.27vw 45.86vw;
+  /*grid-template-columns: repeat(auto-fit, /*44.27vw*/47.22% 45.833vw);/*340px 352px*/*/
   column-gap: 28px; 
 }
 }
