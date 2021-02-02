@@ -3,4 +3,11 @@
   line-height: 1.63;
   margin: 0;
   font-weight: 400;
+  width: 100%;
+}
+@media screen and (max-width:320px) {
+.place__paragraph {
+  width: calc(100% - 32px);
+  padding-left: 16px;
+  }
 }

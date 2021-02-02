@@ -1,7 +1,19 @@
 .footer {
   max-width: 1280px;
   width: 92.5vw;
-  margin: 0 auto;
+  margin: 0 auto 24px;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+.footer {
+  max-width: 720px;
+  width: 93.75vw;
+  }
+}
+@media screen and (max-width:320px) {
+.footer {
+  max-width: 288px;
+  flex-direction: column;
+  }
 }
