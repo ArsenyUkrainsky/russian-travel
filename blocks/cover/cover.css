@@ -4,19 +4,19 @@
   margin: 0 auto 92px;
   cursor: pointer;
 }
-@media screen and (max-width:1024px) {
-.cover {
-  max-width: 1024px;
-  width: 100%;
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    width: 100%;
+  }
 }
-}
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .cover {
     margin: 0 auto 88px;
   }
 }
-@media screen and (max-width:320px) {
-.cover {
-  margin: 0 auto 64px;
-}
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
 }

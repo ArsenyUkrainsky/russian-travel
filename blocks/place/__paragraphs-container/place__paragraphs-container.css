@@ -3,13 +3,13 @@
   gap: 26px;
   grid-template-rows: repeat(2, min-content);
 }
-@media screen and (max-width:1024px) {
-.place__paragraphs-container {
-  gap: 27px;
+@media screen and (max-width: 1024px) {
+  .place__paragraphs-container {
+    gap: 27px;
   }
 }
-@media screen and (max-width:768px) {
-.place__paragraphs-container {
-  gap: 25px;
+@media screen and (max-width: 768px) {
+  .place__paragraphs-container {
+    gap: 25px;
   }
 }

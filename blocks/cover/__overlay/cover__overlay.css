@@ -11,31 +11,31 @@
   text-decoration: none;
 }
 .cover__overlay::before {
-  content: '';
+  content: "";
   display: block;
   min-height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 1s ease;
 }
 .cover__overlay:hover::before {
   opacity: 0.9;
 }
-@media screen and (max-width:1024px) {
-.cover__overlay {
-  max-width: 1024px;
-  min-height: 62.5vw;
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+    min-height: 62.5vw;
+  }
 }
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    max-width: 768px;
+  }
 }
-@media screen and (max-width:768px) {
-.cover__overlay {
-  max-width: 768px;
-}
-}
-@media screen and (max-width:320px) {
-.cover__overlay {
-  max-width: 320px;
-}
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    max-width: 320px;
+  }
 }

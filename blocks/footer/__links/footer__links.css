@@ -5,16 +5,16 @@
   margin: 0;
   flex-wrap: wrap;
 }
-@media screen and (max-width:768px) {
-.footer__links {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  .footer__links {
+    width: 100%;
   }
 }
-@media screen and (max-width:320px) {
-.footer__links {
-  max-width: 288px;
-  display: grid;
-  gap: 32px;
-  margin-bottom: 48px;
+@media screen and (max-width: 320px) {
+  .footer__links {
+    max-width: 288px;
+    display: grid;
+    gap: 32px;
+    margin-bottom: 48px;
   }
 }

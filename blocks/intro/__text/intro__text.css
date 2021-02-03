@@ -5,14 +5,14 @@
   font-weight: 400;
   max-width: 690px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .intro__text {
     max-width: 720px;
-    }
   }
-@media screen and (max-width:320px) {
+}
+@media screen and (max-width: 320px) {
   .intro__text {
     max-width: 288px;
     margin: 0 0 34px;
-    }
   }
+}

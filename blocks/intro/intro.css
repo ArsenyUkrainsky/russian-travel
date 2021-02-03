@@ -5,20 +5,20 @@
   flex-direction: column;
   align-items: flex-start;
 }
-@media screen and (max-width:1024px) {
-.intro {
-  margin-left: 48px;
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
   }
 }
-@media screen and (max-width:768px) {
-.intro {
-  margin-left: 24px;
-  margin-bottom: 88px;
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-left: 24px;
+    margin-bottom: 88px;
   }
 }
-@media screen and (max-width:320px) {
-.intro {
-  margin-left: 16px;
-  margin-bottom: 64px;
+@media screen and (max-width: 320px) {
+  .intro {
+    margin-left: 16px;
+    margin-bottom: 64px;
   }
 }
