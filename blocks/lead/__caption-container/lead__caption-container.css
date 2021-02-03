@@ -1,4 +1,24 @@
 .lead__caption-container {
   margin: 0 auto;
   object-fit: inherit;
+  max-width: 984px;
+  width: 76.875vw;
+}
+@media screen and (max-width: 1024px) {
+.lead__caption-container {
+  max-width: 1024px;
+  width: 90.625vw;
+  }
+}
+@media screen and (max-width: 768px) {
+.lead__caption-container {
+/*width: 100%;*/
+max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px) {
+.lead__caption-container {
+width: 100%;
+max-width: 320px;
+  }
 }

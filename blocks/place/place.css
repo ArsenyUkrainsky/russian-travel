@@ -15,8 +15,11 @@
 }
 @media screen and (max-width:768px) {
 .place {
-  grid-template-columns: 44.27vw 45.86vw;
-  column-gap: 28px; 
+  /*grid-template-columns: 44.27vw 45.86vw;*/
+  column-gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(44.27vw, max-content));
+  
+
 }
 }
 @media screen and (max-width:320px) {
