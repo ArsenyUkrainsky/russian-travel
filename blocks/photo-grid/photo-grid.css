@@ -32,7 +32,6 @@
     width: 88vw;
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 352px)); */
     grid-template-columns: repeat(auto-fit, minmax(45.83vw, 100%));
-    gap: 16px;
   }
 }
 @media screen and (max-width: 320px) {
