@@ -5,6 +5,8 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(min-content, 284px)); */
   gap: 16px;
+  justify-content: center;
+  width: 92.5vw;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
@@ -12,21 +14,22 @@
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 300px)); */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
+    width: 90.625vw;
   }
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: 720px;
-    width: 100%;
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 352px)); */
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
+    width: 93.75vw;
   }
 }
 @media screen and (max-width: 425px) {
   .photo-grid {
     max-width: 425px;
-    width: 100%;
+    width: 88vw;
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 352px)); */
     grid-template-columns: repeat(auto-fit, minmax(45.83vw, 100%));
     gap: 16px;
@@ -38,5 +41,6 @@
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 288px)); */
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
+    width: 100%;
   }
 }
