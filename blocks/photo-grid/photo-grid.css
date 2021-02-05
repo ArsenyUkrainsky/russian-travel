@@ -17,8 +17,18 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: 720px;
+    width: 100%;
     /* grid-template-columns: repeat(auto-fit, minmax(min-content, 352px)); */
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    max-width: 425px;
+    width: 100%;
+    /* grid-template-columns: repeat(auto-fit, minmax(min-content, 352px)); */
+    grid-template-columns: repeat(auto-fit, minmax(45.83vw, 100%));
     gap: 16px;
   }
 }

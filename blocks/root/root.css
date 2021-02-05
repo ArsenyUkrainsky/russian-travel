@@ -9,6 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
   max-width: 1280px;
   width: 100%;
+  min-width: 288px;
   box-sizing: border-box;
 }
 /* * {
